@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<h1>User Survey</h1>
+  <link href='styles.css' rel='stylesheet' type='text/css'>	
+  <title>Cookie Survey</title>
 </head>
+<header>
+<h1>User Survey</h1>
+</header>
 
 <form name="survey" action="https://httpbin.org/post" method="post">
   <fieldset>
     <div>
-      <label>Name:</label>
+      <label id="name">Name:</label>
       <input type="text" name="yourname">
     </div>
 
     <div>
-      <label>Email:</label>
+      <label id="email">Email:</label>
       <input type="email" name="email">
     </div>
   </fieldset>
@@ -34,14 +38,14 @@
     </div>
 
     <div>
-      <input type="checkbox" name="interested" value="agree">
+      <input id="box" type="checkbox" name="interested" value="agree">
       I would be interested in seeing more recipes for delicious treats.
     </div>
   </fieldset>
   
   <button type="submit">Submit</button>
 </form>
-Here is a <a href="http://www.bettycrocker.com/recipes/ultimate-chocolate-chip-cookies/77c14e03-d8b0-4844-846d-f19304f61c57">link<a> to another chocolate chip recipe site. This site used a lot of divs and stylistic tags in order to better organize the website. They also added many external links for sharing on social media and looking at other recipes on the site. 
+<div id="end">Here is a <a href="http://www.bettycrocker.com/recipes/ultimate-chocolate-chip-cookies/77c14e03-d8b0-4844-846d-f19304f61c57">link<a> to another chocolate chip recipe site. This site used a lot of divs and stylistic tags in order to better organize the website. They also added many external links for sharing on social media and looking at other recipes on the site. </div>
 <footer>
   	<a href="index.html">Home<a>
 </footer>

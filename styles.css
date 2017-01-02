@@ -1,0 +1,50 @@
+.supplies {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  border: 5px solid brown;
+  padding: 15px;
+  margin-left: 0px;
+  font-family: "Copperplate / Copperplate Gothic Light", sans-serif;
+} 
+
+body {
+  background-image: url("cookie.jpg");
+}
+
+h3 {
+  color: brown;
+}
+
+.instructions {
+  color: white;
+}
+
+#name {
+  color: white;
+}
+
+#email {
+  color: white;
+}
+
+label {
+  color: white;
+}
+
+#box {
+  color: white;
+}
+
+#end {
+  color: brown;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: small;
+  }
+}
